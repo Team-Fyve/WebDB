@@ -9,7 +9,7 @@
     Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/fyve",
             "mtb29", "mucis");
     Statement st = con.createStatement();
-    int i = st.executeUpdate("insert into members(fname, lname, email, username, password, register_date) values ('" + fname + "','" + lname + "','" + email + "','" + user + "','" + pwd + "', CURDATE())");
+    int i = st.executeUpdate("insert into users(fname, lname, email, username, password, register_date) values ('" + fname + "','" + lname + "','" + email + "','" + user + "','" + pwd + "', CURDATE())");
     if (i > 0) {
         response.sendRedirect("welcome.jsp");
     } else {
