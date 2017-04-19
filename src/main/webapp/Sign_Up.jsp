@@ -82,7 +82,7 @@
                         <td><input type="reset" value="Clear" /></td>
                     </tr>
                     <tr>
-                        <td colspan="2">Already registered? <a href="Sign.In.jsp">Login Here</a></td>
+                        <td colspan="2">Already registered? <a href="Sign_In.jsp">Login Here</a></td>
                     </tr>
                 </tbody>
             </table>

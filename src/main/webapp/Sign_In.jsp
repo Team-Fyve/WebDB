@@ -70,7 +70,7 @@
                         <td><input type="reset" value="Clear" /></td>
                     </tr>
                     <tr>
-                        <td colspan="2">Not Reigstered? <a href="reg.jsp">Register Here</a></td>
+                        <td colspan="2">Not Reigstered? <a href="Sign_Up.jsp">Register Here</a></td>
                     </tr>
                 </tbody>
             </table>
