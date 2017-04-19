@@ -12,7 +12,7 @@
         Statement st = con.createStatement();
         int i = st.executeUpdate("insert into users(fname, lname, email, username, password, register_date) values ('" + fname + "','" + lname + "','" + email + "','" + user + "','" + pwd + "', CURDATE())");
         if (i > 0) {
-            response.sendRedirect("welcome.jsp");
+            response.sendRedirect("registered.jsp");
         } else {
             response.sendRedirect("Sign_Up.jsp");
         }
