@@ -2,6 +2,6 @@
     <%
         session.setAttribute("userid", null);
         session.invalidate();
-        response.sendRedirect("Index.jsp");
+        response.sendRedirect("Index.html");
     %>
 </html> 
