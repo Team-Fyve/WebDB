@@ -1,11 +1,19 @@
-CREATE TABLE `members` (
-  `id` int(10) unsigned NOT NULL auto_increment,
-  `first_name` varchar(45) NOT NULL,
-  `last_name` varchar(45) NOT NULL,
-  `email` varchar(45) NOT NULL,
-  `uname` varchar(45) NOT NULL,
-  `pass` varchar(45) NOT NULL,
-  `regdate` date NOT NULL,
-  PRIMARY KEY  (`id`)
+DROP DATABASE IF EXISTS fyve;
+
+CREATE DATABASE fyve;
+
+USE fyve;
+
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users (
+   id INT NOT NULL AUTO_INCREMENT,
+   fname VARCHAR(128) NOT NULL,
+   lname VARCHAR(128) NOT NULL,
+   email VARCHAR(128) NOT NULL,
+   username VARCHAR(128) NOT NULL,
+   password VARCHAR(128) NOT NULL,
+   register_date DATE NOT NULL,
+   PRIMARY KEY  (`id`)
 );
 

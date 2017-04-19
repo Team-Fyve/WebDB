@@ -35,10 +35,10 @@
       <ul class="nav navbar-nav navbar-right">
          <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Account<b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="Sign_In.html">Sign In</a></li>
-            <li><a href="Profile.html">Profile</a></li>
+            <li><a href="Sign_In.jsp">Sign In</a></li>
+            <li><a href="Profile.jsp">Profile</a></li>
             <li class="divider"></li>
-            <li><a href="Sign_Up.html">Sign Up</a></li>
+            <li><a href="Sign_Up.jsp">Sign Up</a></li>
           </ul>
         </li>
       </ul>
@@ -48,41 +48,29 @@
   <!-- /.container-fluid --> 
 </nav>
  
- <form method="post" action="registration.jsp">
+ <form method="post" action="login.jsp">
             <center>
-            <table border="1" width="30%" cellpadding="5">
+            <table border="1" width="30%" cellpadding="3">
                 <thead>
                     <tr>
-                        <th colspan="2">Enter Information Here</th>
+                        <th colspan="2">Login Here</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>First Name</td>
-                        <td><input type="text" name="fname" value="" /></td>
-                    </tr>
-                    <tr>
-                        <td>Last Name</td>
-                        <td><input type="text" name="lname" value="" /></td>
-                    </tr>
-                    <tr>
-                        <td>Email</td>
-                        <td><input type="text" name="email" value="" /></td>
-                    </tr>
-                    <tr>
                         <td>User Name</td>
-                        <td><input type="text" name="uname" value="" /></td>
+                        <td><input type="text" name="username" value="" /></td>
                     </tr>
                     <tr>
                         <td>Password</td>
-                        <td><input type="password" name="pass" value="" /></td>
+                        <td><input type="password" name="password" value="" /></td>
                     </tr>
                     <tr>
-                        <td><input type="submit" value="Submit" /></td>
-                        <td><input type="reset" value="Reset" /></td>
+                        <td><input type="submit" value="Login" /></td>
+                        <td><input type="reset" value="Clear" /></td>
                     </tr>
                     <tr>
-                        <td colspan="2">Already registered!! <a href="index.jsp">Login Here</a></td>
+                        <td colspan="2">Not Reigstered? <a href="reg.jsp">Register Here</a></td>
                     </tr>
                 </tbody>
             </table>
