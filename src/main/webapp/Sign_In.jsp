@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Red Forest</title>
+<title>Red Forest - Sign In</title>
 
 <!-- Bootstrap -->
 <link rel="stylesheet" href="css/bootstrap.css">
@@ -22,7 +22,7 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="About_Us.html" target="_blank">Team Fyve</a></div>
+      <a class="navbar-brand" href="About_Us.html">Team Fyve</a></div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -39,6 +39,8 @@
             <li><a href="Profile.jsp">Profile</a></li>
             <li class="divider"></li>
             <li><a href="Sign_Up.jsp">Sign Up</a></li>
+            <li class="divider"></li>
+            <li><a href="https://github.com/Team-Fyve/TeamFyve-RPG">Game Repository</a></li>
           </ul>
         </li>
       </ul>
